@@ -1,4 +1,4 @@
-import { programs } from "../data"
+
 
 const Card = (programdata, children) => {
   console.log("Card Component", programdata)
