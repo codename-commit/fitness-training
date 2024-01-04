@@ -1,7 +1,7 @@
 
 
 const Card = (programdata, children) => {
-  console.log("Card Component", programdata)
+  // console.log("Card Component", programdata)
   return (
      <div className={`card ${programdata.className}`}>
         
