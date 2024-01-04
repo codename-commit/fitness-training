@@ -18,8 +18,9 @@ const Testimonials = () => {
         console.log("prevTestimonialHandler - index", index);
         
         if(index <= 0){
-            setIndex(4)
+            setIndex(testimonials.length -1)
        }
+
     }
 
     
