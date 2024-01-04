@@ -24,10 +24,11 @@ const Testimonials = () => {
 
     
     const nextTestimonialHandler = () =>{
+
         setIndex(prev => prev +1)
+        
         console.log("nextTestimonialHandler", index);
-        // console.log("prevTestimonialHandler - Props", this.props);
-        // console.log("nextTestimonialHandler - Length", testimonials.length);
+        
         if(index >= testimonials.length - 1){
              setIndex(0)
         }
